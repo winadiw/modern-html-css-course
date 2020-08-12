@@ -163,6 +163,18 @@ h6 {
   color: var(--primary-color) !important;
 }
 
+/* Inner page container */
+.page-container {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  margin: 2rem 0;
+  gap: 1.5rem;
+}
+
+.page-container > *:first-child {
+  grid-row: 1 / span 2;
+}
+
 /* Navigation */
 #main-nav {
   background: white;
@@ -267,7 +279,6 @@ h6 {
 }
 
 /* Footer */
-
 #main-footer {
   background: var(--dark-color);
   color: white;
