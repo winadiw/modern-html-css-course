@@ -98,3 +98,26 @@ input[class^="btn-"] {
   display: block;
   margin: 0 auto 1rem auto;
 }
+
+// Backgrounds
+.bg {
+  &-main {
+    background: $main-color;
+    color: set-text-color($main-color);
+  }
+
+  &-light {
+    background: $light-color;
+    color: set-text-color($light-color);
+  }
+
+  &-dark {
+    background: $dark-color;
+    color: set-text-color($dark-color);
+  }
+
+  &-medium {
+    background: $medium-color;
+    color: set-text-color($medium-color);
+  }
+}
