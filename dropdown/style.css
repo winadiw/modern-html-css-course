@@ -100,7 +100,7 @@ body {
   color: white;
 }
 
-@media(max-width: 600px) {
+@media (max-width: 600px) {
   #navbar ul li {
     display: block;
   }
