@@ -8,6 +8,6 @@
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "devDependencies": {
-    "node-sass": "^4.14.1"
+    "node-sass": "^7.0.0"
   }
 }
